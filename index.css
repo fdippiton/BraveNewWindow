@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    background-size: cover;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .7) 10%, rgba(255, 255, 255, 0) 80%, rgba(0, 0, 0, .9) 100%), url("./assets/casita.jpeg");
+    /* background-size: 100% 100%; Stablish a full background */
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed; 
+    /* 
+    Si en cambio lo que quieres es que sólo se repita una vez y ocupe todo el alto/ancho del contenedor, podrías hacerlo usando la propiedad background-attachment y asignándole el valor fixed 
+    */
+    letter-spacing: 1px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 60px;
+}
+
+.section__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__description--container {
+    display: flex;
+    padding: 20px;
+}
+
+.section__description--info {
+    margin-right: 30px;
+}
+
+.section__description--title {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.section__description--details {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.section__description--number {
+    font-size: 78px;
+    font-weight: 300;
+}
+
+
+.orangeColor {
+    color: #fe5f55;
+}
+
+.purpleColor {
+    color: #614ad3;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.hour {
+    align-items: center;
+}
+
+img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.section__links {
+    display: flex;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.section__link {
+    margin-right: 20px;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.section__link--name {
+    color: white;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.section__tools {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    right: 0;
+    padding: 0px 50px 50px 0;
+}
+
+.section__tool {
+    margin-left: 20px;
+}
+
+
+.material-symbols-outlined {
+    color: white;
+}
+
+.section__tool:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.section__tool:first-child h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
